@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 262.262 s <<< FAILURE! - in TestSuite
+performSearchandCheckout(Test.EBayTest)  Time elapsed: 211.896 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: btnPay' (tried for 60 second(s) with 500 milliseconds interval)
+	at Test.EBayTest.performSearchandCheckout(EBayTest.java:110)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'PRIYANKA-GUPTA', ip: '192.168.96.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\priyanka.gupta\Des..., appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, appWaitActivity: com.ebay.mobile.activities...., appWaitPackage: com.ebay.mobile, databaseEnabled: false, desired: {app: C:\Users\priyanka.gupta\Des..., deviceName: Galaxy S6, platformName: android, platformVersion: 6.0.1}, deviceManufacturer: samsung, deviceModel: SM-G920I, deviceName: 06157df6add0b10e, deviceScreenSize: 1440x2560, deviceUDID: 06157df6add0b10e, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 6.0.1, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: f36b0880-dd96-4696-9fa6-70dfe464f336
+*** Element info: {Using=id, value=btnPay}
+	at Test.EBayTest.performSearchandCheckout(EBayTest.java:110)
+

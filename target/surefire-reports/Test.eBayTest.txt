@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Test.EBayTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 158.528 s <<< FAILURE! - in Test.EBayTest
+Login(Test.EBayTest)  Time elapsed: 53.277 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'PRIYANKA-GUPTA', ip: '192.168.96.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\priyanka.gupta\Des..., appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, appWaitActivity: com.ebay.mobile.activities...., appWaitPackage: com.ebay.mobile, databaseEnabled: false, desired: {app: C:\Users\priyanka.gupta\Des..., deviceName: Nexus, platformName: android, platformVersion: 7.0}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3d07fb23-ddd4-47f0-a553-fc1760be28a0
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_google_deny}
+	at Test.EBayTest.Login(EBayTest.java:70)
+
+performSearchandCheckout(Test.EBayTest)  Time elapsed: 30.03 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'PRIYANKA-GUPTA', ip: '192.168.96.165', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_31'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\priyanka.gupta\Des..., appActivity: com.ebay.mobile.activities...., appPackage: com.ebay.mobile, appWaitActivity: com.ebay.mobile.activities...., appWaitPackage: com.ebay.mobile, databaseEnabled: false, desired: {app: C:\Users\priyanka.gupta\Des..., deviceName: Nexus, platformName: android, platformVersion: 7.0}, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenSize: 768x1280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, platform: LINUX, platformName: LINUX, platformVersion: 7.0, takesScreenshot: true, warnings: {}, webStorageEnabled: false}
+Session ID: 3d07fb23-ddd4-47f0-a553-fc1760be28a0
+*** Element info: {Using=id, value=com.ebay.mobile:id/search_box}
+	at Test.EBayTest.performSearchandCheckout(EBayTest.java:87)
+
